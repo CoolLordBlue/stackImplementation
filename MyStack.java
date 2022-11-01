@@ -59,12 +59,6 @@ public class MyStack implements MyStackInterface {
   }
 
   public int search(int num) {
-    // for (int x = 0; x < size; x++) {
-    //   if (list[x] == num) {
-    //     return size - x;
-    //   }
-    // }
-    // return -1;
     for (int x = size-1; x > 0; x--)
       {
         if (list[x] == num)
